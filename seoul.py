@@ -70,4 +70,4 @@ if __name__ == "__main__":
 
     if st.button("Predict"):
         dur = predict(dist, hav, phr, dhr, temp, gtemp)
-        st.success("The predicted Duration: "+ str(np.round(dur, 2)) + ' miles')
+        st.success("The predicted Duration: "+ str(np.round(dur, 2)) + ' hours')
